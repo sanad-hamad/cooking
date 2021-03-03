@@ -1,0 +1,32 @@
+{
+  "name": "restapinodemysql",
+  "version": "1.0.0",
+  "description": "working with my sql ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanad-hamad/cooking.git"
+  },
+  "keywords": [
+    "rest",
+    "full",
+    "api",
+    "mysql"
+  ],
+  "author": "sanad hamad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanad-hamad/cooking/issues"
+  },
+  "homepage": "https://github.com/sanad-hamad/cooking#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7"
+  }
+}
